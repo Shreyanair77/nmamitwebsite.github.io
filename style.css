@@ -1,0 +1,301 @@
+*{
+	padding: 0px;
+	margin: 0px;
+	font-family: "georgia";
+}
+
+body{
+	height: 100%;
+}
+
+header{
+	display: flex;
+	flex-direction: row;
+    width: 100%;
+    backdrop-filter: blur(100px);
+    font-weight: bolder;
+    position: fixed;
+    background-color: orange;
+    z-index: 1;
+    top: 0;
+}
+
+.logo img{
+	height: 75px;
+	margin-left: 15px;
+	margin-top: 10px;
+}
+
+.heading{
+	color: #2c2e64;
+	margin-top: 6px;
+	margin-left: 15px;
+}
+
+.navbar ul{
+	display: flex;
+	flex-direction: row;
+	list-style-type: none;
+}
+
+.navbar li{
+	font-size: 20px;
+	padding: 5px;
+	margin: 0px 5px 0px;
+	width: 110px;
+	text-align: center;
+	color: white;
+}
+
+.navbar a, .adm a{
+	text-decoration: none;
+	color: white;
+}
+
+.adm{
+  height: 35px;
+  background-color: red;
+  border-radius: 20px;
+  font-size: 25px;
+  color: white;
+  width: 150px;
+  margin-top: 10px; 
+  padding: 5px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: 20px;
+}
+
+.menu{
+	height: 37px;
+	background-color: #310061;
+	position: fixed;
+	width: 100%;
+	z-index: 1;
+	top: 88px;
+}
+
+
+main{
+	padding-top: 89px;
+}
+
+.content{
+	background-image: url("pattern2.jpg");
+	background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 450px;
+}
+
+.c1{
+	color: #2c2e64;
+	font-size: 80px;
+	margin-left: 20px;
+	top: 20%;
+	position: absolute;
+}
+
+.c2{ color: #2c2e64; 
+     font-size: 65px; 
+     margin-left: 20px; 
+     top: 60%; 
+     position: absolute;
+   }
+
+
+
+ .imp_box{
+ 	display: flex;
+ 	flex-direction: row;
+ 	justify-content: center;
+ 	padding-top: 50px;
+ }
+
+.moto{
+ 	color: white;
+ 	font-size: 60px;
+ 	width: 700px;
+ 	text-align: center;
+ 	display: flex;
+    align-items: center;
+ }
+
+ .nitte{
+    margin: 20px;
+    padding: 20px;
+ }
+
+ .p1{
+ 	font-size: 21px;
+ 	color: #2c2e64;
+ 	background-color: orange;
+ 	padding: 10px;
+ }
+ #p2{
+ 	font-size: 21px;
+ 	color: #2c2e64;
+ 	background-color: yellow;
+ 	padding: 10px;
+ }
+ 
+
+.rank p{
+	margin-top: 30px;
+	color: white;
+	font-size: 80px;
+	background-color: #2c2e64;
+	width: 650px;
+	text-align: center;
+}
+
+.rank{
+	position: relative;
+	background-image: url("clg.jpeg");
+	background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+#r1{
+	position: relative;
+	animation-name: slide1;
+	animation-duration: 3s;
+	animation-iteration-count: 10;
+	animation-fill-mode: forwards;
+
+}
+
+#r2{
+	position: relative;
+	animation-name: slide2;
+	animation-duration: 3s;
+    animation-iteration-count: 10;
+    animation-fill-mode: forwards;
+	margin-left: auto;
+}
+
+ @keyframes slide1{
+  
+ 0%	{left: 0px;}
+ 100%{left: 25%;} 
+
+ }
+
+@keyframes slide2{
+  
+ 0%	{right: 0px;}
+ 100%{right: 27%;} 
+
+}
+
+
+ footer{
+   margin-top: 40px;
+   background-color: orange;
+   height: 300px;
+   color: black; 
+ }
+
+ footer td{
+ 	padding: 0px 100px 0px 20px;
+ 	width: 150px;
+ }
+
+footer table{
+	padding-top: 20px;
+}
+ footer a{
+ 	text-decoration: none;
+ 	color: #2c2e64;
+ }
+
+ footer a:hover{
+ 	color: red;
+ }
+
+ .content1{
+	background-image: url("pattern2.jpg");
+	background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 550px;
+}
+
+.dept{
+	margin-top: 35px;
+	font-size: 40px;
+	padding: 25px;
+}
+
+.dept ul{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+
+.dept li{
+	width: 380px;
+	height: 150px;
+	list-style-type: none;
+    margin: 10px;
+    text-align: center;
+}
+
+.dept a{
+    text-decoration: none;
+}
+
+.dept img{
+	width: 300px;
+}
+
+section{ 
+padding-top: 140px;
+}
+
+#cse h1, #enc h1, #civil h1, #library h1, #std h1, #hostel h1{
+    text-align: center;
+    font-size: 50px;
+}
+
+#cse p, #civil p, #enc p, #library p, #std p, #hostel p {
+	font-size: 25px;
+	margin: 30px;
+	padding: 30px;
+	background-color: orange;
+}
+
+.us{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	padding: 50px;
+}
+
+.add{
+    background-color: orange;
+    height: 50%;
+    border-radius: 10px;
+    color: black;
+    font-size: 22px;
+    font-family: cursive;
+    text-align: center;
+    padding: 40px;
+    margin: 50px;
+    width: 400px;
+}
+
+.add p{
+	padding: 8px;
+}
+
+.content2{
+	background-image: url("pattern2.jpg");
+	background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 100%;
+   }
+
